@@ -1,3 +1,7 @@
+body {
+    text-align: center;
+}
+
 .chef {
     height: 450px;
     width: auto;
@@ -6,10 +10,33 @@
     margin-right: auto;
 }
 
-.title {
-    text-align: center;
+.beef {
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.title1 {
     font-size: 60px;
+}
+
+.title2 {
+    font-size: 30px;
+}
+
+.title1, .title2 {
+    text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul, ol {
+    width: 400;
+    display: inline-block;
+    text-align: left;
+    font-size: 24px;
+    font-family:'Times New Roman', Times, serif; 
 }
 
 .recipe {
@@ -17,3 +44,4 @@
     font-size: 24px;
     font-family:'Times New Roman', Times, serif;
 }
+
